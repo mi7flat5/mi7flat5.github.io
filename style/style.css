@@ -11,7 +11,7 @@
 body
 { font: normal .80em 'trebuchet ms', arial, sans-serif;
   background: #F0EFE2 url(background.png) repeat;
-  color: #000;
+  color: #FFF;
   height: 100%;
   width:100%;
    overflow-x:hidden;
@@ -26,7 +26,7 @@ img
 
 h1, h2, h3, h4, h5, h6 
 { font: normal 175% 'century gothic', arial, sans-serif;
-  color: #000;
+  color: #c19724;
   margin: 0 0 15px 0;
   padding: 15px 0 5px 0;}
 
@@ -69,15 +69,17 @@ blockquote
 { margin: 20px 0; 
   padding: 10px 20px 0 20px;
   border: 1px solid #E5E5DB;
-  background: #FFF;}
+  background: #c19724;}
 
 ul
-{ margin: 2px 0 22px 17px;}
+{ margin: 2px 0 22px 17px;color: #FFF;}
 
 ul li
 { list-style-type: circle;
   margin: 0 0 6px 0; 
-  padding: 0 0 4px 5px;}
+  padding: 0 0 4px 5px;
+  font: normal 140% arial, sans-serif;
+  }
 
 ol
 { margin: 8px 0 22px 20px;}
@@ -86,19 +88,18 @@ ol li
 { margin: 0 0 11px 0;}
 
 #main, #logo, #menubar, #site_content, #footer
-{ margin-left: 5px; 
-  margin-right: 5px;}
+{}
 
 #header
 { background: transparent;
-  height: 100px;}
+  height: 100px;z-index:-1;}
 
 #logo
 { width: 100%;
   position: relative;
   height: 148px;
   text-align: center;
-  border-bottom: 2px solid #FFF;}
+  border-bottom: 2px solid #c19724;}
 
 #logo #logo_text 
 { position: relative; 
@@ -115,18 +116,18 @@ ol li
 
 #logo_text h1, #logo_text h1 a, #logo_text h1 a:hover 
 { padding: 22px 0 0 0;
-  color: #FFF;
+  color: #c19724;
   letter-spacing: -1px;
   text-decoration: none;
    text-align: center; }
 
 #logo_text h1 a .logo_colour
-{ color: #FFF;}
+{ color: #c19724;}
 
 #logo_text h2
-{ font-size: 100%;
+{ font-size: 120%;
   padding: 4px 0 0 0;
-  color: #FFF;
+  color: #c19724;
   z-index:-1;}
 
 #menubar
@@ -144,18 +145,19 @@ ul#menu, ul#menu li
   padding: 0;}
 
 ul#menu li
-{ list-style: none;}
+{ list-style: none;
+}
 
 ul#menu li a
 { letter-spacing: 0.1em;
-  font: normal 100% arial, sans-serif;
+  font: normal 120% arial, sans-serif;
   display: block; 
   float: center; 
   height: 17px;
   margin: 10px 0 0 10px;
   padding: 9px 26px 6px 26px;
   text-align: center;
-  color: #FFF;
+  color: #c19724;
   text-transform: uppercase;
   text-decoration: none;
   background: transparent;} 
@@ -171,28 +173,32 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   margin: 5px;
   margin-right:5px;
   padding: 10px;
-  
-  background: #FFF;} 
+ color: #FFF;
+ } 
 
 .sidebar
 { float: right;
  text-align: center; 
 width: 15%;
+color:#c19724;
   positon:relative;}
 
 .sidebar ul
 { 
   padding: 4px; 
+
  }
 
 .sidebar li
 { list-style: none; 
-  padding: 0 0 7px 0; }
+  padding: 0 0 7px 0; 
+ }
 
 .sidebar li a, .sidebar li a:hover
-{ padding: 0 0 0 40px;
+{
   display: block;
-  background: transparent url(link.png) no-repeat left center;} 
+  color: #c19724;
+ } 
 
 .sidebar li a.selected
 { color: #7E2451;
@@ -200,10 +206,10 @@ width: 15%;
 
 #content
 { text-align: left;
-width:75%;
+width:80%;
 z-index:1;
   float: left;
-  
+  color: #c19724;
   padding: 1px;}
 
 #content ul
@@ -223,13 +229,13 @@ z-index:1;
   padding: 24px 0 5px 0;
   text-align: center; 
   background: transparent;
-  color: #FFF;
+  color: #FFA;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   position: relative; }
 
 #footer a
-{ color: #FFF;
+{ color: #c19724;
   text-decoration: none;}
 
 #footer a:hover
